@@ -79,6 +79,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\services\AuthService.js" />
+    <Content Include="app\views\signup.html" />
     <Content Include="Content\CSS\bootstrap-theme.css" />
     <Content Include="Content\CSS\bootstrap-theme.min.css" />
     <Content Include="Content\CSS\bootstrap.css" />
@@ -110,8 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\controllers\" />
-    <Folder Include="app\services\" />
-    <Folder Include="app\views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
